@@ -18,7 +18,7 @@ public class DragActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_drag);
         findViewById(R.id.myimage1).setOnTouchListener(new MyTouchListener());
         findViewById(R.id.myimage2).setOnTouchListener(new MyTouchListener());
         findViewById(R.id.myimage3).setOnTouchListener(new MyTouchListener());
